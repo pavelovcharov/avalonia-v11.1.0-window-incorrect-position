@@ -8,5 +8,8 @@
         Position="100,100"
                 Width="300" Height="300"
         Title="AvaloniaApplication1">
-    <TextBlock x:Name="textBlock" HorizontalAlignment="Center" VerticalAlignment="Center" />
+    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+        <TextBlock Text="Expected Position: 100,100" />
+        <TextBlock x:Name="textBlock" />    
+    </StackPanel>
 </Window>

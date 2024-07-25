@@ -7,7 +7,7 @@ namespace AvaloniaApplication1
         public MainWindow()
         {
             InitializeComponent();
-            PositionChanged += (s, e) => textBlock.Text = $"Actual Positon is: {Position}";
+            PositionChanged += (s, e) => textBlock.Text = $"Actual Positon: {Position}";
         }
     }
 }
